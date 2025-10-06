@@ -1,6 +1,6 @@
 # nonrest
 
-🚀 **Create a non-RESTful monorepo in seconds** - WebSocket & HTTP backends, React web app, and React Native mobile app, all in one command.
+🚀 **Create a nonrestrictive monorepo in seconds** - WebSocket & HTTP backends, React web app, and React Native mobile app, all in one command.
 
 ## Why nonrest?
 
@@ -36,13 +36,13 @@ That's it! Your full-stack monorepo is ready to go.
 ```
 my-awesome-app/
 ├── apps/
-│   ├── ws-backend/       # WebSocket server
-│   ├── http-backend/     # REST API server
-│   ├── web/              # React web app (Vite)
-│   └── native/           # React Native app (Expo)
+│   ├── ws-backend/       
+│   ├── http-backend/     
+│   ├── web/              
+│   └── native/           
 ├── packages/
-│   ├── ui/               # Shared UI components
-│   └── lib/              # Shared business logic
+│   ├── ui/               
+│   └── lib/              
 ├── pnpm-workspace.yaml
 └── package.json
 ```
@@ -59,13 +59,10 @@ my-awesome-app/
 ## Commands
 
 ```bash
-# Create a new project
 nonrest <project-name>
 
-# Show help
 nonrest --help
 
-# Show version
 nonrest --version
 ```
 
