@@ -18,13 +18,10 @@ Perfect for chat apps, real-time dashboards, collaborative tools, multiplayer ga
 ## Quick Start
 
 ```bash
-# Install globally
 npm install -g nonrest
 
-# Create your project
 nonrest my-awesome-app
 
-# Start developing
 cd my-awesome-app
 pnpm dev
 ```
@@ -107,17 +104,13 @@ React Native with Expo for:
 ## Development Workflow
 
 ```bash
-# Start all apps in parallel
 pnpm dev
 
-# Run specific app
 cd apps/web
 pnpm dev
 
-# Add dependencies to workspace root
 pnpm add -w <package-name>
 
-# Add dependencies to specific app
 pnpm add <package-name> --filter web
 ```
 
@@ -151,11 +144,9 @@ pnpm add <package-name> --filter web
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-
 ## Author
 
-Created with ❤️ for developers who want to move fast and build real-time apps.
+Created with <3 by [woustachemax](https://www.siddharththakkar.xyz/
+ ) for developers who want to move fast and build real-time apps.
 
 ---
-
-**Made something cool with nonrest?** Share it with us! We'd love to see what you build.
