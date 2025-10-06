@@ -154,9 +154,6 @@ pnpm add <package-name> --filter web
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
-
-MIT
 
 ## Author
 
